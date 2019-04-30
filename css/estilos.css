@@ -1,0 +1,14 @@
+.verdeAzulDegradado{
+    background: -webkit-gradient(linear, left top, right bottom, from(#27ae60), to(#3498db));
+  }
+
+body{
+    font-family: 'Kalam', cursive;
+    
+    font-size: 30px ;
+}
+
+h1 {
+    font-size: 50px !important;
+}
+
