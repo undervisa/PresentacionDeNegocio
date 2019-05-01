@@ -80,7 +80,7 @@
 			// number for the current slide. The function needs to return an array
 			// with one string [slideNumber] or three strings [n1,delimiter,n2].
 			// See #formatSlideNumber().
-			slideNumber: false,
+			slideNumber: true,
 
 			// Can be used to limit the contexts in which the slide number appears
 			// - "all":      Always show the slide number
@@ -119,7 +119,7 @@
 			touch: true,
 
 			// Loop the presentation
-			loop: false,
+			loop: true,
 
 			// Change the presentation direction to be RTL
 			rtl: false,
@@ -229,7 +229,7 @@
 			focusBodyOnPageVisibilityChange: true,
 
 			// Transition style
-			transition: 'slide', // none/fade/slide/convex/concave/zoom
+			transition: 'convex', // none/fade/slide/convex/concave/zoom
 
 			// Transition speed
 			transitionSpeed: 'default', // default/fast/slow
