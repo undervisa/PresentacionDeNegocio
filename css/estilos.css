@@ -13,6 +13,12 @@ h1 {
     font-size: 50px !important;
 }
 
+@media (max-width: 600px) {}
+@media (min-width: 601px)  {
+   
+    body{ font-size: 28px ;}
+}
+
 .card{
     background: #05052052 !important
 }
