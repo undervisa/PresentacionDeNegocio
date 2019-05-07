@@ -22,7 +22,7 @@ h1 {
 }
 
 .card{
-    background: #05052052 !important
+    background: #0C52A2 !important
 }
 
 .reveal .controls{
@@ -178,14 +178,14 @@ section {
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: #ffc107;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 
 #team .card {
     border: none;
-    background: #ffffff;
+    background: #ffc107 ;
 }
 
 .image-flip:hover .backside,
@@ -267,12 +267,12 @@ section .section-title {
 
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    color: #ffc107 !important;
 }
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+    color: #ffc107 !important;
 }
 
 .frontside .card .card-body img {
