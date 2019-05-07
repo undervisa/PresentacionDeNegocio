@@ -163,54 +163,54 @@
                             <div class="box-shadow card">
                                 <div>
                                     <img src="img/imlLogo.png" height="128" width="128">
-                                    <h3 class="card-title pricing-card-title">Imarkets live</h3>
+                                    <h3 class="card-title pricing-card-title">iMarkets Live</h3>
                                 </div>
                                 <br>
                                 <div>
                                     <ul class="list-unstyled mt-3 mb-4">
-                                        <li class="list-group-item list-group-item-secondary">clases en vivo</li>
-                                        <li class="list-group-item">sofware en forex</li>
-                                        <li class="list-group-item list-group-item-secondary">educacion basica de forex</li>
-                                        <li class="list-group-item">30 dias calndario</li>
+                                        <li class="list-group-item list-group-item-secondary">Clases en vivo</li>
+                                        <li class="list-group-item">Software en forex</li>
+                                        <li class="list-group-item list-group-item-secondary">Educación básica de forex</li>
+                                        <li class="list-group-item">30 días calendario</li>
                                     </ul>
-                                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">220 usd</button>
                                 </div>
-                            </div>
+                              </div>
+                              <button id="btnIML" onmouseover="cambioTexto('btnIML', 'AHORRA 150 USD')" onmouseout="volverText('btnIML', '220 USD')" type="button" class="btn btn-block btn-secondary">220 USD</button>
                         </div>
                         <div class="col-4">
                                 <!-- Undervisa -->
-                                <div class="card mb-4 box-shadow">
+                                <div class="card mb-4 box-shadow sombra">
                                     <div class="card-header">
-                                        <img src="img/undervisa.jpeg" height="128" width="128"></div>
-                                    <div class="card-body">
-                                        <h1 class="card-title pricing-card-title">Undervisa Mt</h1>
-                                        <ul class="list-unstyled mt-3 mb-4">
-                                            <li>clases en vivo</li>
-                                            <li>educacion basica y avanzada</li>
-                                            <li>trader profecionales</li>
-                                            <li>sofware en forex</li>
-                                            <li>30 dias calendario </li>
+                                        <img src="img/undervisa.png" height="128" width="200"></div>
+                                        <h2 class="card-title pricing-card-title">Undervisa Mt</h2>
+                                    <div>
+                                          <ul class="list-unstyled mt-3 mb-4" style="margin-bottom: 0% !important"
+                                            <li class="list-group-item list-group-item-success">Clases en vivo</li>
+                                            <li class="list-group-item list-group-item-danger">Educación básica y avanzada</li>
+                                            <li class="list-group-item list-group-item-warning">Master traders</li>
+                                            <li class="list-group-item list-group-item-success">Software en forex</li>
+                                            <li class="list-group-item list-group-item-danger" >30 días calendario </li>
                                         </ul>
-                                        <button type="button" class="btn btn-lg btn-block btn-outline-primary">90 usd </button>
-                                    </div>
+                                        <button type="button" class="btn btn-block btn-danger">90 usd </button>
+                                    </div> 
                                 </div>
                             </div>
                         <div class="col-4">
                             <!-- Universidad rosario -->
-                            <div class="card mb-4 box-shadow">
+                            <div class="box-shadow card">
                                 <div class="card-header">
                                     <img src="img/rosario.png" height="128" width="128"> </div>
-                                <div class="card-body">
-                                    <h1 class="card-title pricing-card-title">Universidad rosario</h1>
+                                    <h3 class="card-title pricing-card-title">Universidad Del Rosario</h3>
+                                <div> 
                                     <ul class="list-unstyled mt-3 mb-4">
-                                        <li>clases en vivo</li>
-                                        <li>trader profesonales </li>
-                                        <li>educacion anazada de forex</li>
-                                        <li>5 dias 120 hrs</li>
+                                        <li class="list-group-item list-group-item-secondary">Clases en vivo</li>
+                                        <li class="list-group-item">Trader profesionales </li>
+                                        <li class="list-group-item list-group-item-secondary">Educación avanzada de forex</li>
+                                        <li class="list-group-item">5 días 120 hrs</li>
                                     </ul>
-                                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">1788,94 usd</button>
                                 </div>
                             </div>
+                        <button id="btnURosario" onmouseover="cambioTexto('btnURosario', 'AHORRA 1698,94 USD')" onmouseout="volverText('btnURosario', '1788,94 USD')" type="button" class="btn btn-block btn-secondary">1788,94 USD</button>
                         </div>
                     </div>
                 </section>
@@ -634,6 +634,15 @@
                     }
                 ]
             });
+        </script>
+        <!-- funcion para cambiar texto del elemento -->
+        <script>
+            function cambioTexto (idElemento, texto){
+                document.getElementById(idElemento).innerHTML= texto
+            }
+            function volverText (idElemento, texto){
+                document.getElementById(idElemento).innerHTML= texto
+            }
         </script>
     </body>
 
