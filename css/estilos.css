@@ -1,5 +1,51 @@
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  
+  body{ 
+    font-size: 28px ;
+  } 
+  .imgRedesSociales{
+  height: 20px !important;
+  width: 20px !important;
+  
+  } 
+  .textoFooter{
+    font-size: 18px !important ;
+  }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {  
+  body{ 
+    font-size: 28px ;
+  } 
+  .imgRedesSociales{
+  height: 20px !important;
+  width: 20px !important;
+  }  
+  .textoFooter{
+    font-size: 18px !important ;
+  }
+
+}
+
+/*  Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {   .imgRedesSociales{
+  height: 40px !important;
+  width: 40px !important;
+  } 
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {   .imgRedesSociales{
+  height: 40px !important;
+  width: 40px !important;
+  }  
+}
+
 .verdeAzulDegradado{
    /*  background: -webkit-gradient(linear, left top, right bottom, from(#2b6644), to(#6cb3e2)); */
    background: #1b71b8
@@ -13,12 +59,6 @@ body{
 
 h1 {
     font-size: 50px !important;
-}
-
-@media (max-width: 600px) {}
-@media (min-width: 601px)  {
-   
-    body{ font-size: 28px ;}
 }
 
 .card{
