@@ -70,6 +70,9 @@ h1 {
 .card{
     background: #0C52A2 !important
 }
+.card-text{
+    font-size: 22px
+}
 .sombra{
 background-color: gray;
 }
@@ -201,3 +204,17 @@ ul{
    list-style:none; 
 }
 
+.tarjetaeMediana{
+   height: 300px;
+    width: 300px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.tarjetaeGrande{
+    height: 300px;
+    width: 470px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
