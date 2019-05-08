@@ -4,7 +4,7 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {  
   body{ 
-    font-size: 28px ;
+    font-size: 30px ;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
@@ -71,7 +71,6 @@
 body{
     font-family: 'Kalam', cursive;
     color: #ffffff;
-    font-size: 25px ;
 }
 
 h1 {
