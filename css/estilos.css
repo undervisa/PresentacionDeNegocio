@@ -5,6 +5,12 @@
 @media (max-width: 575.98px) {  
   body{ 
     font-size: 28px ;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+
   } 
   .imgRedesSociales{
   height: 40px !important;
